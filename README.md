@@ -30,37 +30,60 @@ gcc super_trunfo.c -o super_trunfo
 ```
 📄 Detalhes das Cartas:
 
-Carta 1
-  População: 5000000
-  Área: 1500.00
-  PIB: 100000000000.00
-  Pontos Turísticos: 100
-  Densidade Populacional: 3333.33
-  PIB per Capita: 20000.00
-  Super Poder: 100005168133.03
+🃏 Carta 1:
+São Paulo (A01 - Estado A)
+População: 12325000 habitantes
+Área: 1521.11 km²
+PIB: 699.28 bilhões de reais
+Pontos Turísticos: 50
+Densidade Populacional: 8102.47 hab/km²
+PIB per Capita: 56724.32 reais
+Super Poder: 12325000 + 1521.11 + 699280000000 + 50 + 56724.32 + (1 / 8102.47) ≈ ...
 
-Carta 2
-  População: 8000000
-  Área: 1200.00
-  PIB: 120000000000.00
-  Pontos Turísticos: 150
-  Densidade Populacional: 6666.67
-  PIB per Capita: 15000.00
-  Super Poder: 120009383316.25
+🃏 Carta 2:
+Rio de Janeiro (B02 - Estado B)
+População: 6748000 habitantes
+Área: 1200.25 km²
+PIB: 300.50 bilhões de reais
+Pontos Turísticos: 30
+Densidade Populacional: 5622.24 hab/km²
+PIB per Capita: 44532.91 reais
+Super Poder: 6748000 + 1200.25 + 300500000000 + 30 + 44532.91 + (1 / 5622.24) ≈ ...
 
-📊 Comparando cartas...
-- População: Carta 2 venceu
-- Área: Carta 1 venceu
-- PIB: Carta 2 venceu
-- Pontos Turísticos: Carta 2 venceu
-- Densidade Populacional: Carta 1 venceu
-- PIB per Capita: Carta 1 venceu
-- Super Poder: Carta 2 venceu
+Escolha um atributo para comparar:
+1 - População
+2 - Área
+3 - PIB
+4 - Pontos Turísticos
+5 - Densidade Populacional (MENOR vence)
+6 - PIB per Capita
+7 - Super Poder
+Escolha: 1
 
-Resultado final:
-Carta 1 venceu 3 atributos
-Carta 2 venceu 4 atributos
-🏆 Carta 2 é a vencedora!
+Escolha um atributo para comparar:
+1 - População
+2 - Área
+3 - PIB
+4 - Pontos Turísticos
+5 - Densidade Populacional (MENOR vence)
+6 - PIB per Capita
+7 - Super Poder
+Escolha: 5
+
+🔍 Comparando atributos selecionados...
+
+Atributo: População  
+- Carta 1 (São Paulo): 12.325.000  
+- Carta 2 (Rio de Janeiro): 6.748.000  
+**Vencedor: Carta 1**
+
+Atributo: Densidade Populacional (MENOR vence)  
+- Carta 1 (São Paulo): 8102.47 hab/km²  
+- Carta 2 (Rio de Janeiro): 5622.24 hab/km²  
+**Vencedor: Carta 2**
+
+🏁 Resultado Final: Empate!  
+Cada carta venceu um atributo.
 ```
 
 ---
